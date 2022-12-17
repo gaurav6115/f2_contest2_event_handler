@@ -32,6 +32,7 @@ function validfun() {
     }
    
     else {
+        message.innerText = ""
         emError.innerText = "Make sure email is more than 3 characters and has @ and ."
         emError.style.color = "red";
         pwdError.innerText = "Make sure password is more than 8 characters."
